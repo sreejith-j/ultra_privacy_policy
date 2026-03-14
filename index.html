@@ -154,7 +154,7 @@
     <div class="container">
         <header>
             <h1>Privacy Policy for Ultra</h1>
-            <p class="last-updated">Last updated: February 05, 2026</p>
+            <p class="last-updated">Last updated: March 14, 2026</p>
         </header>
         
         <div class="intro">
@@ -173,15 +173,38 @@
             </ul>
             <p>We collect this data even when the App is closed or not in use (Background Location) if you have enabled these features. We use <strong>Coarse</strong> and <strong>Fine</strong> location permissions to ensure accuracy.</p>
             
-            <h3>B. Activity Recognition</h3>
-            <p>We use the Activity Recognition API to detect your current physical activity (e.g., in a vehicle, walking, still). This allows the App to:</p>
+            <h3>B. Physical Activity (Health Data)</h3>
+            <p>Our App accesses Physical Activity data (which Google categorizes as Health Data) to provide core functionality. This includes detecting when you are:</p>
             <ul>
-                <li>Automatically start or stop trip recording.</li>
-                <li>Optimize battery usage by reducing location updates when you are stationary.</li>
+                <li><strong>Stationary (Still)</strong></li>
+                <li><strong>Walking</strong></li>
+                <li><strong>Running</strong></li>
+                <li><strong>Cycling</strong></li>
+                <li><strong>In a Vehicle (Driving)</strong></li>
             </ul>
-            
-            <h3>C. Device Information</h3>
-            <p>We may collect minimal device information (such as device model and OS version) to ensure compatibility and improve App stability.</p>
+            <p><strong>Usage:</strong> This data is used specifically to:</p>
+            <ul>
+                <li>Enable activity-based reminders (e.g., "Remind me when I start walking").</li>
+                <li>Trigger duration-based alerts (e.g., "Alert me after 30 minutes of running").</li>
+                <li>Optimize battery performance by reducing location polling frequency when the device is detected as stationary.</li>
+            </ul>
+            <p>This data is processed locally on your device and is not uploaded to our servers unless specifically included in a manual backup exported by you.</p>
+
+            <h3>C. Medication and Treatment Information</h3>
+            <p>The App includes optional features for <strong>Medication and Treatment Management</strong>. If you choose to use these features, the App stores information you provide, including:</p>
+            <ul>
+                <li><strong>Medication Names and Dosages</strong></li>
+                <li><strong>Inventory Counts (Pills Remaining)</strong></li>
+                <li><strong>Refill Schedules and Adherence Logs</strong></li>
+            </ul>
+            <p><strong>Usage:</strong> This information is used solely to provide timely reminders, track your adherence, and alert you when an inventory refill is needed. Like other health-related data, this is stored <strong>locally on your device</strong>.</p>
+
+            <h3>D. Device Information</h3>
+            <p>We may collect minimal device information (such as device model, battery level, and OS version) to:</p>
+            <ul>
+                <li>Monitor device health for battery-sensitive triggers.</li>
+                <li>Ensure compatibility and improve App stability.</li>
+            </ul>
         </section>
         
         <section>
@@ -189,16 +212,31 @@
             <p>We use the information we collect to:</p>
             <ul>
                 <li>Provide, maintain, and improve the App's functionality.</li>
-                <li>Send you notifications related to your alarms and reminders.</li>
-                <li>Analyze usage patterns to enhance user experience (data is processed locally).</li>
+                <li>Send you notifications related to your alarms, reminders, and medication schedules.</li>
+                <li>Analyze usage patterns and adherence to enhance user experience (data is processed locally).</li>
             </ul>
         </section>
         
         <section>
-            <h2>3. Data Storage and Sharing</h2>
-            <p><strong>Your data is primarily stored locally on your device.</strong></p>
+            <h2>3. Data Storage, Retention, and Deletion</h2>
+            <p><strong>Storage:</strong> Your data is primarily stored locally in a secure database on your device.</p>
+            
+            <p><strong>Retention:</strong> We retain your data as follows:</p>
             <ul>
-                <li><strong>No Third-Party Sharing:</strong> We do not sell or share your personal location data with third parties for advertising or marketing purposes.</li>
+                <li><strong>Active Data:</strong> Reminders, activity logs, and saved locations are retained as long as the App is installed on your device to provide functional service.</li>
+                <li><strong>Log Data:</strong> System activity logs are kept for a maximum of 30 days or until the log reaches its size limit, after which the oldest entries are automatically deleted.</li>
+            </ul>
+
+            <p><strong>Deletion:</strong> You have full control over your data and can request deletion at any time via:</p>
+            <ul>
+                <li><strong>In-App Deletion:</strong> You can manually delete individual reminders, cleared logs, or saved locations within the App's UI.</li>
+                <li><strong>Nuke Everything:</strong> For a complete reset, you can use the <strong>"Nuke Everything"</strong> button found in the App's Settings. This will immediately wipe all local data and configurations.</li>
+                <li><strong>Complete Reset:</strong> You can also delete all App data by going to your Android System Settings > Apps > Ultra > Storage > Clear Data.</li>
+                <li><strong>Uninstallation:</strong> Uninstalling the App will remove all data stored in the App's private storage directory.</li>
+            </ul>
+
+            <p><strong>Third-Party Sharing:</strong> We do not sell or share your personal location or health data with third parties for advertising or marketing purposes.</p>
+            <ul>
                 <li><strong>Google Play Services:</strong> The App uses Google Play Services, which may collect information used to identify your device. Please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for more details.</li>
             </ul>
         </section>
@@ -209,10 +247,10 @@
         </section>
         
         <section>
-            <h2>5. Your Choices</h2>
+            <h2>5. Your Rights and Choices</h2>
             <ul>
-                <li><strong>Location Permissions:</strong> You can enable or disable location services for the App at any time through your device settings. Note that disabling location will prevent Geofencing and Trip Tracking features from working.</li>
-                <li><strong>Activity Recognition:</strong> You can revoke this permission in settings, but automatic trip detection will be disabled.</li>
+                <li><strong>Location & Activity Permissions:</strong> You can enable or disable location and physical activity services for the App at any time through your device settings.</li>
+                <li><strong>Data Access & Deletion:</strong> You have the right to access your stored data within the App and delete it using the methods described in Section 3.</li>
             </ul>
         </section>
         
